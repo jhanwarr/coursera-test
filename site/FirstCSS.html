@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-
+ 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,6 +21,16 @@
 			color: blue;
 			font-size: 40px;
 			text-align: center;
+		}
+
+		div {
+
+			font-size: 20px;
+		}
+
+		div > span {
+
+			font-size: 15px;
 		}
 
 	</style>
@@ -43,6 +53,8 @@
 
 	<ul>
 
+		<!--text not allowed in <ul> -->
+
 		<li> Element Selector (format --&gt; tag_name_only { rules }) </li>
 		<div>When all the elements like &lt;p&gt;, &lt;div&gt;, etc. have been defined with a style.</div>
 		<br><br>
@@ -60,6 +72,135 @@
 		<br><br>
 
 	</ul>
+
+
+	<h1>Hello Coursera!</h1>
+	<h2> Hello Coursera! </h2>
+	<h3>Hello Coursera!</h3>
+	<h4>Hello Coursera!</h4>
+	<h5>Hello Coursera!</h5>
+	<h6>Hello Coursera!</h6>
+
+	<!-- There's no h7. -->
+
+	<hr> <!-- This is Horizontal rule tag, and needs no end tag to close it.-->
+	<br> <!-- this is a line break tag, and doesn't need an end tag as well.-->
+
+
+	<div>
+
+		<span>
+			**Hi! I am trying entities.!! **I'm using unordered list &lt;ul&nbsp;&gt;.!!
+		</span>
+		
+		**I could have used the ordered list with &lt;ol&nbsp;&gt;.!!
+		
+		<div>**It's however, all the same.!!</div> 
+
+		**See the line break?!! **Now you know the difference between &lt;div&gt; and &lt;span&gt; now? !!
+	
+	</div>
+
+	
+	<ul>
+		<li> I'm copyright – &copy;</li>
+		<li> I'm ampersand - &amp; </li>
+		<li> I'm greater than sign - &gt; </li>
+		<li> I'm less than sign - &lt; </li>
+		<li> I'm " - &quot; </li>
+	</ul>
+
+	<p>
+		This goes on...
+
+		Another entity that's interseting is the non breaking space, or a set of characters to be displayed on the same page, using the entity &amp;nbsp. This would ensure this despite chaning the size of the browser. 
+	</p>
+
+	<p>
+		Now we will look at creating links of three types in the same order : 
+	
+		<ol>
+			<li> Internal Links </li>
+			<li> External Links </li>
+			<li> Same Page </li>
+
+		</ol>
+
+
+	</p>
+
+
+	<a href="check.html" title="helps the visually impaired people. Not much use.">
+
+		<!-- You can add a <div> block here as well. The unique thing about <a> tag is that it is both, a block and inline element. If <div> isn't mentioned, it will be considered an inline element. -->
+
+		This will be the text that will imbibe the link
+	</a>
+
+	<span>. Now two external links. Point the difference. </span>
+
+	<br>
+	<br>
+
+	<a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers" target="_blank" title="This is coursera's link">
+
+		<div>Click here to go to the course website on a new tab</div>
+
+	</a>
+
+	<a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers" title="This is coursera's link">
+
+		<div>Click here to go to the course website on same tab</div>
+
+	</a>
+
+	<br> <br>
+
+	<a href="same_page_links.html" title="Go to this page for understanding more on links and sections">
+
+		<div>Click here foir links on same page and sections.</div>
+
+	</a>
+
+	<!-- Adding images --
+
+		FROM INTERNET
+
+		<img src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" width="640" height="480">
+
+
+
+		FROM LOCAL FILE
+
+		<img src="picture-with-quote.jpg" width="400" height="235" alt="Picture with a quote">
+
+	-->
+
+	<div>
+
+		<img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Pencil_drawing_of_a_girl_in_ecstasy.jpg" width="256">
+
+		Girl in ecstacy
+
+		<img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Pencil_drawing_of_a_girl_in_ecstasy.jpg" width="256">
+
+
+	</div>
+
+	<!--Image is an inline element. -->
+
+	<br> <br> <br>
+
+	<div>
+
+		<img src="Pencil_drawing_of_a_girl_in_ecstasy.jpeg" width="256">
+
+		<div> Girl in ecstacy </div>
+
+	</div>
+
+	<br> <br> <br>
+
 
 </body>
 
